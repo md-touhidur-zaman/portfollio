@@ -36,7 +36,7 @@ const HeroSection = () => {
           <h3 className="text-[#DDDDDD] text-4xl font-bold">
             I&apos;m Md Touhidur Zaman,
           </h3>
-          <h1 className="bg-gradient-to-r from-[#8A54F7] to-[#E1D3FD] bg-clip-text text-transparent text-7xl">
+          <h1 className="bg-linear-to-r from-[#8A54F7] to-[#E1D3FD] bg-clip-text text-transparent text-7xl">
             Full Stack Web Developer.
           </h1>
           <p className="text-[#DDDDDD] text-2xl">
@@ -47,7 +47,7 @@ const HeroSection = () => {
           <div className="flex flex-col  space-x-5 space-y-5">
             <div>
               <a
-                href="../../../public/MD_Touhidur_Zaman_CV.pdf"
+                href="/MD_Touhidur_Zaman_CV.pdf"
                 download
                 target="blank"
               >
@@ -83,9 +83,9 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="transition-all duration-700 ease-linear w-88 h-88 md:w-125 md:h-125  border-4 border-white flex items-center justify-center  rounded-full shadow-2xl shadow-indigo-900 bg-[#8750F7] opacity-80 relative">
+        <div className="transition-all duration-700 ease-linear w-88 h-88 md:w-130 md:h-130  border-4 border-white flex items-center justify-center  rounded-full shadow-2xl shadow-indigo-900  opacity-80 relative">
           <img
-            className="rounded-full    scale-95  transition-all duration-500 w-90 h-90 md:w-130 md:h-130"
+            className="rounded-full bg-[#8750F7] scale-95  transition-all duration-500 w-88 h-88 md:w-120 md:h-120"
             src={heroimg2}
             alt=""
           />

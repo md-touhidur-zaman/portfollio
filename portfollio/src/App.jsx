@@ -12,7 +12,7 @@ function App() {
  
   return (
     <div className="font-[Sora]">
-      <div className="bg-gradient-to-r from-[#0F0715]  to-[#281745]">
+      <div className="bg-linear-to-r from-[#0F0715]  to-[#281745]">
         <HeroSection></HeroSection>
       </div>
       <div className="bg-[#050709]">

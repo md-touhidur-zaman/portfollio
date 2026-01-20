@@ -1,4 +1,3 @@
-import React from "react";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
@@ -79,25 +78,25 @@ const Contact = () => {
           <div className="w-full md:w-1/2 flex flex-col justify-center p-20 space-y-10">
             <div className="flex flex-col lg:flex-row items-center lg:space-x-3">
               <div className="w-16 h-16 rounded-full bg-[#6339B8] flex justify-center items-center">
-                <FaPhoneVolume className="text-white text-2xl"></FaPhoneVolume>
+                <FaPhoneVolume className="text-white text-xl"></FaPhoneVolume>
               </div>
-              <p className="text-white text-2xl font-bold">+8801830612641</p>
+              <p className="text-white text-xl font-bold">+8801830612641</p>
             </div>
 
             <div className="flex flex-col lg:flex-row items-center  lg:space-x-3">
               <div className="w-16 h-16 rounded-full bg-[#6339B8] flex justify-center items-center">
-                <MdEmail className="text-white text-2xl"></MdEmail>
+                <MdEmail className="text-white text-xl"></MdEmail>
               </div>
-              <p className="text-white text-2xl font-bold text-center">
+              <p className="text-white text-xl font-bold text-center">
                 mehedytouhidurzaman@gmail.com
               </p>
             </div>
 
             <div className="flex flex-col lg:flex-row items-center  lg:space-x-3">
               <div className="w-16 h-16 rounded-full bg-[#6339B8] flex justify-center items-center">
-                <IoLocation className="text-white text-2xl"></IoLocation>
+                <IoLocation className="text-white text-xl"></IoLocation>
               </div>
-              <p className="text-white text-2xl font-bold text-center">
+              <p className="text-white text-xl font-bold text-center">
                 Balughat, Dhaka, Bangladesh
               </p>
             </div>
