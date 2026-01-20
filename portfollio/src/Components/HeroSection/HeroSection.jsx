@@ -5,32 +5,33 @@ import { FiDownload } from "react-icons/fi";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 import CountUp from "react-countup";
-import heroimg2 from "../../assets/images/DSC05189-removebg-preview.png"
+import heroimg2 from "../../assets/images/MD Touhidur Zaman.png"
 
 const HeroSection = () => {
     return (
-      <div id='home' className="bg-gradient-to-r from-[#0F0715]  to-[#281745]">
-        <div className="container mx-auto">
+      <div id='home' className=" container mx-auto p-2 md:p-0">
+        <div className="">
           <NavBar></NavBar>
         </div>
 
-        <div className=" container mx-auto p-6  flex flex-col lg:flex-row justify-between items-center md:gap-x-36 relative space-y-10">
+        <div className="  p-6  flex flex-col lg:flex-row justify-between items-center md:gap-x-36 relative space-y-10">
           <div className="md:w-1/2 space-y-5 ">
             <h3 className="text-[#DDDDDD] text-4xl font-bold">
               I&apos;m Md Touhidur Zaman,
             </h3>
             <h1 className="bg-gradient-to-r from-[#8A54F7] to-[#E1D3FD] bg-clip-text text-transparent text-7xl">
-              MERN Stack Web Developer.
+              Full Stack Web Developer.
             </h1>
             <p className="text-[#DDDDDD] text-2xl">
               I break down complex user experinece problems to create integritiy
               focussed solutions that connect billions of people
             </p>
 
-            <div className="flex space-x-5">
+            <div className="flex flex-col  space-x-5 space-y-5">
               <div>
                 <a
-                  href="https://drive.google.com/file/d/1rHxLUXTKJ37GX95Sdm2lZCjtGMhcfQyb/view?usp=sharing"
+                  href="../../../public/MD_Touhidur_Zaman_CV.pdf"
+                  download
                   target="blank"
                 >
                   <button className="flex gap-x-2 items-center text-[#8750F7] text-xl px-6 py-2 border-2 border-[#8750F7] rounded-3xl cursor-pointer hover:bg-[#8750F7] hover:text-[#DDDDDD]">
@@ -38,6 +39,7 @@ const HeroSection = () => {
                   </button>
                 </a>
               </div>
+
               <div className="flex items-center space-x-3 text-[#8750F7] text-xl">
                 <div className="p-2 border-2 border-[#8750F7] rounded-full cursor-pointer transition-all duration-200 ease-in-out hover:bg-[#8750F7] hover:text-[#DDDDDD]">
                   <FaTwitter></FaTwitter>
@@ -63,9 +65,12 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2  transition-all duration-700 ease-linear hover:rotate-6 w-[50%] h-[50%]  border-4 border-[#8750F7] flex items-center justify-center  rounded-full shadow-2xl shadow-indigo-900 bg-[#0C1013]">
+
+
+
+          <div className="transition-all duration-700 ease-linear w-88 h-88 md:w-125 md:h-125  border-4 border-white flex items-center justify-center  rounded-full shadow-2xl shadow-indigo-900 bg-[#8750F7] relative">
             <img
-              className="rounded-full bg-[#8750F7] scale-95 hover:scale-75 transition-all duration-500 w-full h-full"
+              className="rounded-full   scale-95  transition-all duration-500 w-90 h-90 md:w-130 md:h-130"
               src={heroimg2}
               alt=""
             />

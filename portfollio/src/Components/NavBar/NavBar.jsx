@@ -5,11 +5,10 @@ import { CiMenuFries } from "react-icons/ci";
 const NavBar = () => {
     return (
       <div className="flex items-center justify-between">
-        <div className="flex items-center">
+        <div className="">
           <a href="/">
             <img src={logo} className="w-24 lg:w-28 h-28  " alt="" />
           </a>
-          <p className="text-white text-xl">mehedytouhidurzaman@gmail.com</p>
         </div>
 
         <div className="text-white font-bold text-2xl inline-block lg:hidden ">
