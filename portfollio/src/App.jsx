@@ -15,11 +15,21 @@ function App() {
       <div className="bg-gradient-to-r from-[#0F0715]  to-[#281745]">
         <HeroSection></HeroSection>
       </div>
-      <Services></Services>
-      <MyRecentWork></MyRecentWork>
-      <Education></Education>
-      <Skills></Skills>
-      <Contact></Contact>
+      <div className="bg-[#050709]">
+        <Services></Services>
+      </div>
+      <div className="bg-[#0F0715]">
+        <MyRecentWork></MyRecentWork>
+      </div>
+     <div className="bg-[#050709]">
+       <Education></Education>
+     </div>
+      <div className="bg-[#0F0715]">
+        <Skills></Skills>
+      </div>
+      <div className="bg-[#050709]">
+        <Contact></Contact>
+      </div>
       <Footer></Footer>
     </div>
   );

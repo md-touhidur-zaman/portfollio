@@ -4,7 +4,7 @@ import { FaGraduationCap } from "react-icons/fa6";
 
 const Education = () => {
   return (
-    <div className="bg-[#050709] py-20">
+    <div className="container mx-auto py-20">
       <div className="flex flex-col lg:flex-row justify-evenly container mx-auto lg:space-x-20">
         <div className="space-y-5">
           <div className="flex justify-between items-center space-x-10 bg-gradient-to-r from-[#8A54F7] to-[#FBF9FF] bg-clip-text text-transparent  text-6xl font-bold">
@@ -13,9 +13,9 @@ const Education = () => {
           </div>
 
           <div className="bg-[#140C1C] hover:bg-[#5A33A7] rounded-2xl px-10 py-5 space-y-3 text-white font-bold transition-all duration-300 ease-in-out cursor-default">
-            <h1 className="text-[#8A54F7] text-2xl ">2023-Present</h1>
-            <h1 className="text-3xl uppercase">mern stack course</h1>
-            <p className="opacity-80">Programming Hero</p>
+           
+            <h1 className="text-3xl ">Fullstack Web Development</h1>
+            <p className="opacity-60">React JS, Next JS, Node JS, <br />Express JS, Mongodb, Mongoose, <br />PostgreSQL, Prisma, Typescript</p>
           </div>
 
           <div className="bg-[#140C1C] hover:bg-[#5A33A7] rounded-2xl px-10 py-5 space-y-3 text-white font-bold transition-all duration-300 ease-in-out cursor-default">

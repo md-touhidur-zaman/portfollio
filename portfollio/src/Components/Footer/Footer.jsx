@@ -8,8 +8,10 @@ const Footer = () => {
             <div>
               <img className="w-20 h-20" src={logo} alt="" />
             </div>
+
+
             <div>
-              <ul className="flex space-x-3 text-white text-lg items-center">
+              <ul className="flex flex-col md:flex-row lg:space-x-3 text-white text-lg items-center">
                 <li>
                   <a
                     href="#services"
