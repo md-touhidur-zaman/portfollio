@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="flex flex-col lg:flex-row justify-between lg:space-x-5">
           <div className="w-full md:w-1/2 bg-[#140C1C] p-10 rounded-2xl">
             <div className="flex flex-col items-center justify-center space-y-5">
-              <h1 className="bg-gradient-to-r from-[#8A54F7] to-[#FBF9FF] bg-clip-text text-transparent text-6xl font-bold">
+              <h1 className="bg-linear-to-r from-[#8A54F7] to-[#FBF9FF] bg-clip-text text-transparent text-6xl font-bold">
                 Let&apos;s Work Together!
               </h1>
               <p className="text-[#DDDDDD] text-xl text-center">
@@ -68,7 +68,7 @@ const Contact = () => {
             </div>
             <div className="mt-5">
               <div className="flex justify-center">
-                <button className="transition-all text-white font-bold text-xl duration-700 bg-gradient-to-r from-[#7746DB]/80 to-[#341A65]/90  w-full py-3 rounded-full cursor-pointer  hover:from-[#341A65] hover:to-[#7746DB]">
+                <button className="transition-all text-white font-bold text-xl duration-700 bg-linear-to-r from-[#7746DB]/80 to-[#341A65]/90  w-full py-3 rounded-full cursor-pointer  hover:from-[#341A65] hover:to-[#7746DB]">
                   Send Message
                 </button>
               </div>

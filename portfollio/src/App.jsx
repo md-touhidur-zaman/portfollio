@@ -11,7 +11,7 @@ import Footer from "./Components/Footer/Footer";
 function App() {
  
   return (
-    <div className="font-[Sora]">
+    <div className="">
       <div className="bg-linear-to-r from-[#0F0715]  to-[#281745]">
         <HeroSection></HeroSection>
       </div>

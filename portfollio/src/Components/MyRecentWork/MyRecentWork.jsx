@@ -10,7 +10,7 @@ const MyRecentWork = () => {
   return (
     <div id="works" className="container mx-auto px-2 md:px-0 py-10">
       <div className="flex flex-col items-center justify-center space-y-5 ">
-        <h1 className="bg-gradient-to-r from-[#8A54F7] to-[#FBF9FF] bg-clip-text text-transparent text-6xl font-bold">
+        <h1 className="bg-linear-to-r from-[#8A54F7] to-[#FBF9FF] bg-clip-text text-transparent text-6xl font-bold">
           My Recent Work
         </h1>
         <p className="text-[#DDDDDD] text-xl text-center">

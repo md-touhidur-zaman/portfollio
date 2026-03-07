@@ -7,7 +7,7 @@ const Education = () => {
     <div className="container mx-auto py-20">
       <div className="flex flex-col lg:flex-row justify-evenly container mx-auto lg:space-x-20">
         <div className="space-y-5">
-          <div className="flex justify-between items-center space-x-10 bg-gradient-to-r from-[#8A54F7] to-[#FBF9FF] bg-clip-text text-transparent  text-6xl font-bold">
+          <div className="flex justify-between items-center space-x-10 bg-linear-to-r from-[#8A54F7] to-[#FBF9FF] bg-clip-text text-transparent  text-6xl font-bold">
             <SlBadge className="text-[#8A54F7]"></SlBadge>
             <h1>My Experience</h1>
           </div>
@@ -30,7 +30,7 @@ const Education = () => {
           </div>
         </div>
         <div className="space-y-5">
-          <div className="flex justify-between items-center space-x-10 bg-gradient-to-r from-[#8A54F7] to-[#FBF9FF] bg-clip-text text-transparent  text-6xl font-bold">
+          <div className="flex justify-between items-center space-x-10 bg-linear-to-r from-[#8A54F7] to-[#FBF9FF] bg-clip-text text-transparent  text-6xl font-bold">
             <FaGraduationCap className="text-[#8A54F7]"></FaGraduationCap>
             <h1>My Education</h1>
           </div>
